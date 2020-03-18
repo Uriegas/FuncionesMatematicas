@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{746B23F8-B66C-415F-9FAB-875742E323DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication5</RootNamespace>
+    <AssemblyName>WindowsFormsApplication5</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaSombreada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaSombreada.Designer.cs">
+      <DependentUpon>AreaSombreada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="area_circulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="area_circulo.Designer.cs">
+      <DependentUpon>area_circulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="area_cuadrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="area_cuadrado.Designer.cs">
+      <DependentUpon>area_cuadrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="area_pentagono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="area_pentagono.Designer.cs">
+      <DependentUpon>area_pentagono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="area_rectangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="area_rectangulo.Designer.cs">
+      <DependentUpon>area_rectangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="area_rombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="area_rombo.Designer.cs">
+      <DependentUpon>area_rombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="area_trapecio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="area_trapecio.Designer.cs">
+      <DependentUpon>area_trapecio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="area_triangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="area_triangulo.Designer.cs">
+      <DependentUpon>area_triangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bisectriz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bisectriz.Designer.cs">
+      <DependentUpon>Bisectriz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catetoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catetoa.Designer.cs">
+      <DependentUpon>Catetoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatetoB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatetoB.Designer.cs">
+      <DependentUpon>CatetoB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cofuncion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cofuncion.Designer.cs">
+      <DependentUpon>Cofuncion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConversionesGradosMinutosSegundos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConversionesGradosMinutosSegundos.Designer.cs">
+      <DependentUpon>ConversionesGradosMinutosSegundos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConversionesRad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConversionesRad.Designer.cs">
+      <DependentUpon>ConversionesRad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cubo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cubo.Designer.cs">
+      <DependentUpon>Cubo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distancia entre dos puntos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distancia entre dos puntos.Designer.cs">
+      <DependentUpon>Distancia entre dos puntos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distancia Punto Recta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distancia Punto Recta.Designer.cs">
+      <DependentUpon>Distancia Punto Recta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="division.cs" />
+    <Compile Include="División de Segmento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="División de Segmento.Designer.cs">
+      <DependentUpon>División de Segmento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eje.cs" />
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="funciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funciones.Designer.cs">
+      <DependentUpon>funciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geometria Analítica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geometria Analítica.Designer.cs">
+      <DependentUpon>Geometria Analítica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hipotenusa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hipotenusa.Designer.cs">
+      <DependentUpon>Hipotenusa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Identidades Trigonometricas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Identidades Trigonometricas.Designer.cs">
+      <DependentUpon>Identidades Trigonometricas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ley de Coseno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ley de Coseno.Designer.cs">
+      <DependentUpon>Ley de Coseno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ley de Senos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ley de Senos.Designer.cs">
+      <DependentUpon>Ley de Senos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuVolumen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuVolumen.Designer.cs">
+      <DependentUpon>MenuVolumen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Naturaleza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naturaleza.Designer.cs">
+      <DependentUpon>Naturaleza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="paralelogramo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paralelogramo.Designer.cs">
+      <DependentUpon>paralelogramo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paralepipedo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paralepipedo.Designer.cs">
+      <DependentUpon>Paralepipedo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitagoras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pitagoras.Designer.cs">
+      <DependentUpon>Pitagoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prisma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prisma.Designer.cs">
+      <DependentUpon>Prisma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Punto Medio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Punto Medio.Designer.cs">
+      <DependentUpon>Punto Medio.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AreaSombreada.resx">
+      <DependentUpon>AreaSombreada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="area_circulo.resx">
+      <DependentUpon>area_circulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="area_cuadrado.resx">
+      <DependentUpon>area_cuadrado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="area_pentagono.resx">
+      <DependentUpon>area_pentagono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="area_rectangulo.resx">
+      <DependentUpon>area_rectangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="area_rombo.resx">
+      <DependentUpon>area_rombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="area_trapecio.resx">
+      <DependentUpon>area_trapecio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="area_triangulo.resx">
+      <DependentUpon>area_triangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bisectriz.resx">
+      <DependentUpon>Bisectriz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catetoa.resx">
+      <DependentUpon>Catetoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatetoB.resx">
+      <DependentUpon>CatetoB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cofuncion.resx">
+      <DependentUpon>Cofuncion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConversionesGradosMinutosSegundos.resx">
+      <DependentUpon>ConversionesGradosMinutosSegundos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConversionesRad.resx">
+      <DependentUpon>ConversionesRad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cubo.resx">
+      <DependentUpon>Cubo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distancia entre dos puntos.resx">
+      <DependentUpon>Distancia entre dos puntos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distancia Punto Recta.resx">
+      <DependentUpon>Distancia Punto Recta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="División de Segmento.resx">
+      <DependentUpon>División de Segmento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="funciones.resx">
+      <DependentUpon>funciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geometria Analítica.resx">
+      <DependentUpon>Geometria Analítica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hipotenusa.resx">
+      <DependentUpon>Hipotenusa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Identidades Trigonometricas.resx">
+      <DependentUpon>Identidades Trigonometricas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ley de Coseno.resx">
+      <DependentUpon>Ley de Coseno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ley de Senos.resx">
+      <DependentUpon>Ley de Senos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuVolumen.resx">
+      <DependentUpon>MenuVolumen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Naturaleza.resx">
+      <DependentUpon>Naturaleza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paralelogramo.resx">
+      <DependentUpon>paralelogramo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paralepipedo.resx">
+      <DependentUpon>Paralepipedo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitagoras.resx">
+      <DependentUpon>Pitagoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prisma.resx">
+      <DependentUpon>Prisma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Punto Medio.resx">
+      <DependentUpon>Punto Medio.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pet Botique %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circulo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circulocuadrado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circulorecta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jkj.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cats-crop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elementos-de-un-circulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-Color_parallelogram.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5352_imagen_teoria_area_trapecio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caracteristicas-del-cilindro-300x300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caracteristicas-del-cubo-1-300x270.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuadrado-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elementos-de-un-circulo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pentagono.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectángulo-450x251.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rombo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triangulo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triangulo-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triangulorectangulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo con degradado azul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bisectriz.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
